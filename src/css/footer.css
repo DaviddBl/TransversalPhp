@@ -1,0 +1,35 @@
+.footer-container {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 240, 240); 
+}
+.footer-container p{
+   padding: 20px;
+   text-align: center;
+   color: gray;
+}
+
+.footer-links{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: gray;
+    display: inline-block;
+}
+
+.footer-links ul {
+   display: flex;
+   list-style: none;
+   text-align: center;
+   align-items: center;
+   text-decoration: none;
+   width: 100%;
+   justify-content: center;
+   gap: 100px;
+}

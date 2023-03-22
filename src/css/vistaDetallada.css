@@ -1,0 +1,21 @@
+
+
+.title{
+    margin-bottom: 10px;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.subtitle{
+    margin-bottom: 10px;
+    font-size: medium;
+}
+
+.description{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: small;
+}
+
+
+

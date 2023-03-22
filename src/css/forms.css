@@ -1,0 +1,142 @@
+.form-search {
+    background-color: #ececf1;
+    border: 1px solid rgb(204, 199, 199);
+    width: 100%;
+    height: 35px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+
+.input-search {
+    all: unset;
+    color: rgb(31, 30, 30);
+    width: 100%;
+}
+
+::placeholder {
+    color: rgb(20, 20, 20);
+    opacity: 0.7;
+}
+
+.btn-search {
+    display: grid;
+    align-items: center;
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+}
+
+svg {
+    color: rgb(156, 156, 156);
+    fill: currentColor;
+    padding: 10px;
+}
+
+/* --------------------- */
+.flex-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .flex-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .flex-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+form {
+    margin: auto;
+    text-align: left;
+    padding: 20px;
+}
+
+label {
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.caja-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.caja-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.info-form {
+    width: 100%;
+    gap: 10px;
+    background-color: red;
+    /* min-height: 700px; */
+    background-image: url('https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.overlay-2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+}
+
+.content-form {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-form {
+    color: white;
+    font-weight: 400;
+}

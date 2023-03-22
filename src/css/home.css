@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: rgba(0, 0, 0, 0.112) 0px 5px 5px 0px; */
+    text-align: center;
+    align-items: center;
+    position:fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links ul {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+    justify-content: center;
+    gap: 35px;
+
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: gray;
+    display: inline-block;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile img {
+    max-width: 30px;
+    margin: 0;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1e293b;
+    color: white;
+    max-height: 55px;
+}
+
+.btn-registro {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1e293b;
+    color: white;
+    max-height: 55px;
+    width: 100%;
+
+}
+
+.spacing{
+    margin-top: 25px;
+}
+

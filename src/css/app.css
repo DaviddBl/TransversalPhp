@@ -1,0 +1,269 @@
+.container {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    padding: 20px;
+    margin-top: 80px;
+}
+
+.content-2 {
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    padding: 20px;
+}
+
+.eventos {
+    width: 100%;
+    height: 50%;
+    display: grid;
+    justify-content: center;
+    grid-column: 3;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 40px 20px 20px 20px;
+    gap: 10px;
+}
+
+@media screen and (max-width: 992px) {
+    .eventos {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .eventos {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+}
+
+.title-registro {
+    margin-bottom: 10px;
+}
+
+.title-events {
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title-events p {
+    padding-top: 10px;
+    max-width: 800px;
+    margin: auto;
+
+}
+
+.texto {
+    padding-top: 10px;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.texto p {
+    margin-top: 5px;
+}
+
+/* Hero styles */
+
+.hero {
+    width: 100%;
+    gap: 10px;
+    background-color: red;
+    /* min-height: 700px; */
+
+    background-image: url('https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 70px;
+    margin-top: 80px;
+}
+
+.hero {
+    color: white;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+.info {
+    max-width: 500px;
+}
+
+.registrate {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 2;
+    margin-top: 50px;
+    padding: 25px;
+    gap: 50px;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .registrate {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+}
+
+@media (max-width: 767px) {
+    .registrate {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 20px;
+    }
+}
+
+
+.btn-registrate {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.imagen-registrate {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide a {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    display: none;
+}
+
+.slide:first-child {
+    display: block;
+}
+
+.slide:hover a {
+    display: block;
+}
+
+.eventos-content {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.grid-eventos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* Divide en 2 columnas */
+    /* Divide en 2 filas */
+    grid-gap: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 1020px) {
+    .grid-eventos {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .grid-eventos {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+.card-subtitle {
+    text-align: left;
+    margin-top: 10px;
+    font-size: small;
+}
+
+.card-description {
+    margin-top: 20px;
+    text-align: left;
+    font-size: small;
+    overflow-x: hidden;
+}
+
+.card-title-2 {
+    text-align: left;
+    font-size: larger;
+}
+
+hr {
+    margin-top: 8px;
+}
+
+.logo {
+    display: flex;
+}
+
+
+@media only screen and (max-width: 750px) {
+    .list-links li {
+        display: none;
+
+    }
+}
+
+.login{
+    margin-bottom: 10px;
+
+}
+.link-login{
+    text-decoration: none;
+    color: #3b82f6;
+    font-size: small;
+}
